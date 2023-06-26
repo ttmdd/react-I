@@ -1,10 +1,12 @@
 import React from 'react';
 
-function Scene() {
+
+
+function Scene(props) {
 
     return(
         <div>
-            <p>El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial</p>
+            {props.sceneText.map(text => <p key={text}>{text}</p>)}
         </div>
     )
 }
