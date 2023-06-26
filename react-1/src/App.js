@@ -7,7 +7,7 @@ import sceneText from './sceneText';
 function App() {
   return (
     <div>
-      <Scene sceneText={sceneText}/>
+         <Scene sceneText={sceneText}/>
     </div>
   );
 }
